@@ -49,7 +49,7 @@ cpimg = "https://graph.org/file/5ed50675df0faf833efef-e102210eb72c1d5a17.jpg"
 OWNER_ID = 7431004177 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [ ,]
+SUDO_USERS = [7431004177,]
 
 AUTH_CHANNEL = -1002678465116
 
