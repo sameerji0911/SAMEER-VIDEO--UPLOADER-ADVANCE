@@ -93,8 +93,8 @@ async def progress_bar(current, total, reply, start):
                     f'┣⪼ LOADED 📦 {cur}\n\n'
                     f'┣⪼ SIZE 🧲 {tot}\n\n'
                     f'┣⪼ ETA ⏳ {eta}\n\n'
-                    f'╰━《@CHAT_WITH_SAMEER_BOT》━➣\n\n'
-                    f'【🆔@SAMEER_OFFICAL_092】\n\n {big_emoji}</b>'
+                    f'╰━×•-•-•-•⟮ ◆𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜 ⟯•-•-•-• ×━➣\n\n'
+                    f'【🆔  ┈ ⋞ 〈 @ASPSIR9 〉 ⋟ ┈】\n\n {big_emoji}</b>'
                 )
             except FloodWait as e:
                 time.sleep(e.x)
