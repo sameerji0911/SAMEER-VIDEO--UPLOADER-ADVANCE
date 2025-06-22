@@ -114,10 +114,10 @@ keyboard = InlineKeyboardMarkup(
     
 # Image URLs for the random image feature
 image_urls = [
-    "https://files.catbox.moe/zdxffk.jpg",
-    "https://files.catbox.moe/2jafya.jpg",
-    "https://files.catbox.moe/qdx7ep.jpg",
-    "https://files.catbox.moe/943ida.jpg",
+    "https://files.catbox.moe/7xe3hp.jpg",
+    "https://files.catbox.moe/5fb0rm.jpg",
+    "https://files.catbox.moe/1okl0f.jpg",
+    "https://files.catbox.moe/s9o73r.jpg",
     # Add more image URLs as needed
 ]
 random_image_url = random.choice(image_urls) 
@@ -125,7 +125,7 @@ random_image_url = random.choice(image_urls)
 caption = (
         "**ʜᴇʟʟᴏ👋**\n\n"
         "☆ **ɪ ᴀᴍ ᴛxᴛ ᴛᴏ ᴠɪᴅᴇᴏ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ.**\n"
-        "☆ **ғᴏʀ ᴜsᴇ ᴍᴇ sᴇɴᴅ /tillu.\n"
+        "☆ **ғᴏʀ ᴜsᴇ ᴍᴇ sᴇɴᴅ /aspsir.\n"
         "☆ **ғᴏʀ ɢᴜɪᴅᴇ sᴇɴᴅ /help."
 )
     
@@ -404,7 +404,7 @@ async def list_users(client: Client, msg: Message):
 async def help_command(client: Client, msg: Message):
     help_text = (
         "`/start` - Start the bot⚡\n\n"
-        "`/tillu` - Download and upload files (sudo)🎬\n\n"
+        "`/aspsir1` - Download and upload files (sudo)🎬\n\n"
         "`/restart` - Restart the bot🔮\n\n" 
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/cookies` - Upload cookies file🍪\n\n"
@@ -418,7 +418,7 @@ async def help_command(client: Client, msg: Message):
     await msg.reply_text(help_text)
 
 # Upload command handler
-@bot.on_message(filters.command(["sameerji"]))
+@bot.on_message(filters.command(["aspsir1"]))
 async def upload(bot: Client, m: Message):
     if not is_authorized(m.chat.id):
         await m.reply_text("**🚫You are not authorized to use this bot.**")
@@ -783,7 +783,7 @@ async def upload(bot: Client, m: Message):
                        f"▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
                        f"✅𝗦𝗧𝗔𝗧𝗨𝗦 » 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗`")
     await m.reply_text(f"<pre><code>📥𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤『{raw_text3}』</code></pre>")
-    await m.reply_text(f"<pre><code>『🦋प्यार के नाम पर धोखा🦋』</code></pre>")                 
+    await m.reply_text(f"<pre><code>『✦ 𝗕𝗔𝗧𝗖𝗛 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬✦』</code></pre>")                 
 
 bot.run()
 if __name__ == "__main__":
